@@ -2,7 +2,7 @@ function binary_search(list, item) {
     let low = 0, high = list.length - 1, mid, guess;
 
     while (low <= high) {
-        mid = Math.floor(low + high);
+        mid = Math.floor((low + high) / 2);
         guess = list[mid]
         if (guess === item) {
             return mid;
@@ -18,4 +18,4 @@ function binary_search(list, item) {
 
 let list = [1, 3, 5, 7, 9];
 
-console.log(binary_search(list, 11));
+console.log(binary_search(list, 5));
