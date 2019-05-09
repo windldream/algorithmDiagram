@@ -16,6 +16,6 @@ function binary_search(list, item) {
     return null;
 }
 
-let list = [1, 3, 5, 7, 9];
+let list = [1, 3, 5, 7, 9, 11];
 
 console.log(binary_search(list, 5));
