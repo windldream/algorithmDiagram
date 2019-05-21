@@ -1,4 +1,4 @@
-function LinkedList() {
+export default function LinkedList() {
     let Node = function(element) {
         this.element = element;
         this.next = null;
