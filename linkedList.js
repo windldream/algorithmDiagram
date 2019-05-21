@@ -113,5 +113,7 @@ function LinkedList() {
         return length;
     };
 
-    
+    this.getHead = function() {
+        return head;
+    };
 }
